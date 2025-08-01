@@ -1,0 +1,37 @@
+/* Dark Theme */
+.dark-theme {
+    --light-color: #1a1a2e;
+    --dark-color: #f8f9fa;
+    --text-color: #f8f9fa;
+    --text-light: #ccc;
+    --white: #16213e;
+    --black: #f8f9fa;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme header {
+    background-color: rgba(26, 26, 46, 0.9);
+}
+
+.dark-theme .skill-card,
+.dark-theme .project-card,
+.dark-theme .testimonial-card,
+.dark-theme .form-group input,
+.dark-theme .form-group textarea {
+    background-color: #16213e;
+    color: var(--text-color);
+}
+
+.dark-theme .tech-used span {
+    background-color: #1a1a2e;
+    color: var(--secondary-color);
+}
+
+.dark-theme .footer-links a,
+.dark-theme .footer-links a:hover {
+    color: var(--text-light);
+}
+
+.dark-theme .theme-toggle i {
+    color: var(--white);
+}
